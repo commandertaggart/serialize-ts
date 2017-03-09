@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"declaration": true,
+		"experimentalDecorators": true
+	},
+	"include": [
+		"./index.ts",
+		"./src/**/*.ts",
+		"./test/**/*.ts"
+	]
+}

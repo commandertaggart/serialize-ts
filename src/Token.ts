@@ -1,0 +1,28 @@
+
+export enum Token
+{
+	NULL,
+
+	STRING,
+
+//	INT64,
+	INT32,
+	INT16,
+	INT8,
+//	UINT64,
+	UINT32,
+	UINT16,
+	UINT8,
+	FLOAT,
+	DOUBLE,
+	TRUE,
+	FALSE,
+
+	ARRAY,
+
+	OBJECT_START,
+	OBJECT_PROPERTY,
+	OBJECT_END,
+
+	EOF
+}

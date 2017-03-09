@@ -1,0 +1,15 @@
+{
+  "name": "binary-serialize",
+  "version": "1.0.0",
+  "description": "Binary serialization of TypeScript or JavaScript objects.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "tsc && node ./test/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.5"
+  }
+}
