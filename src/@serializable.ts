@@ -21,6 +21,9 @@ export function serializable(id?:string)
 		{ throw new Error("Serializable class name too long:" + data.type); }
 
 		constructor.prototype["serializerData"] = data;
+		Object.defineProperty(constructor, 'serializedType', {
+			get: ():string => data.type
+		});
 
 		if (data.type in Serializer.constructors)
 		{ throw new Error("Duplicate serializable class name:" + data.type); }

@@ -22,6 +22,9 @@ Serializer.blockSize = 20;
 	{ this.a = [1,2,3,4].map(() => ++TestClass2.x); }
 }
 
+console.log("TestClass1 serializes as: " + TestClass1['serializedType']);
+console.log("TestClass2 serializes as: " + TestClass2['serializedType']);
+
 var tests:Object[] =[
 	{ x: 10 },
 	{ n: 5, b:true, s:"Hello" },
