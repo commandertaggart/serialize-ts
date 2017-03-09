@@ -1,7 +1,5 @@
 
-import { Serializer } from '../src/Serializer';
-import { serializable } from '../src/@serializable';
-import { serialized } from '../src/@serialized';
+import { Serializer, serializable, serialized } from '..';
 
 Serializer.blockSize = 20;
 

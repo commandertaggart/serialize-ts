@@ -5,7 +5,9 @@
 		"moduleResolution": "node",
 		"sourceMap": true,
 		"declaration": true,
-		"experimentalDecorators": true
+		"experimentalDecorators": true,
+
+		"outDir": "./.build"
 	},
 	"include": [
 		"./index.ts",
