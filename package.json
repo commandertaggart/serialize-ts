@@ -1,5 +1,5 @@
 {
-  "name": "binary-serialize",
+  "name": "serialize-ts",
   "version": "1.0.0",
   "description": "Binary serialization of TypeScript or JavaScript objects.",
   "main": "./index.ts",
@@ -7,7 +7,8 @@
     "test": "tsc && node ./.build/test/index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "https://github.com/glikker/serialize-ts.git",
   "devDependencies": {
     "@types/node": "^7.0.5"
   }
