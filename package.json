@@ -2,8 +2,7 @@
   "name": "binary-serialize",
   "version": "1.0.0",
   "description": "Binary serialization of TypeScript or JavaScript objects.",
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "./index.ts",
   "scripts": {
     "test": "tsc && node ./.build/test/index.js"
   },
