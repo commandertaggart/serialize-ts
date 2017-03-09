@@ -152,6 +152,7 @@ function serializeProperty(id:string | number, o:any, t:string, b:SerializedBuff
 				b.putInt16(<number>o);
 				break;
 			case 'uint32':
+			case 'uint':
 				b.putUInt32(<number>o);
 				break;
 			case 'int32':
