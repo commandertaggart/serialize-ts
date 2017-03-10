@@ -2,9 +2,9 @@
   "name": "serialize-ts",
   "version": "1.0.0",
   "description": "Binary serialization of TypeScript or JavaScript objects.",
-  "main": "./index.ts",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "tsc && node ./.build/test/index.js"
+    "test": "tsc && node ./dist/test/index.js"
   },
   "author": "",
   "license": "MIT",

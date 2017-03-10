@@ -7,7 +7,7 @@
 		"declaration": true,
 		"experimentalDecorators": true,
 
-		"outDir": "./.build"
+		"outDir": "./dist"
 	},
 	"include": [
 		"./index.ts",
