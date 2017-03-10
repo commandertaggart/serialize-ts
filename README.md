@@ -62,3 +62,20 @@ be serialized as `double` values.  Here are the available types: `float` (32-bit
 If the property type is an array, you can add `[]` to the type name, e.g.: `int[]`,
 or `string[]`.  If your array is of mixed types, do not specify this parameter.
 Unfortunately, this limits mixed arrays to built-in types.
+
+## Use with JavaScript
+
+If you don't use TypeScript, you can still make your class serializable:
+
+```JavaScript
+var serialize = require('serialize-ts');
+function SerializableClass()
+{
+	this.numberProperty = 42;
+	this.stringProperty = "Hello";
+	this.notSerialized = true;
+}
+serialize.serialized('int')(SerializableClass.prototype, "numberProperty");
+serialize.serialized()(SerializableClass.prototype, "stringProperty");
+serialize.serializable()(SerializableClass);
+```
